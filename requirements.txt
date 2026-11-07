@@ -1,0 +1,7 @@
+# Core Python dependencies for synthetic experiments and figures.
+# Record a pinned lockfile / environment export for the final tagged submission.
+numpy
+pandas
+scipy
+matplotlib
+scikit-learn

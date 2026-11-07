@@ -1,0 +1,24 @@
+# Environments and caches
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.Rhistory
+.RData
+.DS_Store
+
+# Raw image sources, checkpoints, identifiable or license-restricted score inputs
+DDR_data/
+DDR_images/
+**/ddr_analysis_scores.csv
+**/scores_ddr_pool.csv
+**/ddr_model_best.pt
+**/ddr_split_assignment.csv
+**/ddr_content_audit.csv
+**/ddr_scoring_recipe.json
+**/ddr_duplicate_report.csv
+
+# Transient outputs not meant for the tracked reference results
+**/figures/*.png
+**/figures/*.pdf
+**/sim_sandwich_outputs/
